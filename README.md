@@ -1,0 +1,2 @@
+# Weatherforecast
+This is a simple and user-friendly web application that provides real-time weather updates for any city worldwide. By entering the city name, users can instantly view the temperature, weather conditions, humidity, and wind speed. The app also displays an icon that matches the current weather, making the forecast easy to understand at a glance. It uses the OpenWeatherMap API for reliable data and features a clean, responsive design suitable for both desktop and mobile devices.
