@@ -1,0 +1,94 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: background: url('https://img.freepik.com/premium-photo/scenic-view-field-against-sky_1048944-2360388.jpg?ga=GA1.1.1745453792.1710654494&semt=ais_hybrid&w=740') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0;
+
+  }
+
+.weather-app {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  margin: auto;
+  width: 340px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  animation: fadeIn 1.5s ease-in;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: 0.3s ease;
+}
+
+input:focus {
+  border-color: #00aaff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 170, 255, 0.3);
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0077cc;
+  transform: scale(1.05);
+}
+
+
+.weather-info {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #444;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.weather-info p {
+  margin: 10px 0;
+}
+
+
+.weather-icon {
+  font-size: 60px;
+  animation: float 3s ease-in-out infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
